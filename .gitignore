@@ -1,0 +1,29 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+gradle/
+gradlew
+*.bat
+build
+
+
+# idea confid
+.idea
+
+# old stages
+/Readability Score (Java)/*
+!/Readability Score (Java)/task/
+/Readability Score (Java)/task/*
+!/Readability Score (Java)/task/src/
+!/Readability Score (Java)/task/build.gradle
+!/Readability Score (Java)/task/build.gradle.kts
+
+# Project exclude paths
+/Topics/Command-line arguments/Parameters and their values/out/
+/Topics/Command-line arguments/Parameters and their values/out/production/classes/
+/Topics/Command-line arguments/The index of an argument/out/
+/Topics/Command-line arguments/The index of an argument/out/production/classes/
+/Topics/Conditional statement/Triangle/out/
+/Topics/Conditional statement/Triangle/out/production/classes/
